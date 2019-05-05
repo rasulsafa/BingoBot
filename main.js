@@ -106,7 +106,7 @@ function checkBingo(boardArr) {
             if(boardArr[j][i])
                 vertical++;
         }
-        if(horizontal == 5 || vertical == 6)
+        if(horizontal == 5 || vertical == 5)
             return true;
         
         if(boardArr[i][i]) diag1++;
